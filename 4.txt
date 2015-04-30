@@ -1,0 +1,64 @@
+﻿1.    游戏页、视频页   标题共有四个，相关翻译及顺序
+        顺序                中文                    土语                        葡语       
+         1                 操作指南              İşlem Kılavuzu            Guias de Jogo
+		 2                 视频攻略              Video Raiders             Detonado 
+		 3                 推荐专题             Önerilen konular         tópicos recomendados
+         4                 评论                    Yorum                       Comentário
+         5                    玩家                  Oyuncu                        Jogador
+         6        1000字符以内    En fazla 1000 karakter            Menos de 100 carácteres
+
+       中文                        土语                        葡语
+     返回顶部                  Başa Dön                 Volte ao topo
+        <!--返回顶部-->
+		<div class="lz-feedback">
+			<a title="Volte ao topo" class="lz-feedback-top" href="javascript:void(0)"></a>
+		</div>
+		<!--返回顶部 结束-->
+
+		/**
+		 * [element description] feedback初始化
+		 * @type {[type]}
+		 */
+		GSY.feedback.inti({
+			element : $('.lz-feedback'),
+			left:0,
+			bottom:168,
+			mainDiv:$('.lz-cont')
+		});
+
+
+
+2.    专题合集页翻译 
+        排行榜            Sıralama      排行榜（11oyun）
+
+3.    视频页   go to play  为进入的意思
+        中文            土语                葡语
+        进入            Oyuna Gir               Fim
+
+4.      专题合集页，专题页
+        中文            土语                葡语
+        进入           Oyuna Gir               Fim
+
+5.    返回首页
+         中文                土语                                        葡语
+        返回首页          Ana Sayfaya Geri Dön            Voltar a página principal
+
+6.    404页面
+        <p class="lz-404-main-p">
+            <span>Página não encontrada, por favor volte a página inicial</span>
+            <span class="content">Voce será automaticamente encaminhado para a página inicial em <em id="timetimer">6</em> segundos</span>
+        </p>
+7.     土语   国旗语言（11oyun）
+        Portugal
+
+8.   vaijogos缺少http://www.vaijogos.com/oauthWindow.html 这个页面
+
+9.    11oyun   粉丝页  新页面打开
+
+
+
+10.   vaijogos   专题页、视频页  需要添加  推荐专题选项
+
+11.    11oyun    专题合集页   点击首页加链接
+
+12.    vaijogos 缺少 http://www.vaijogos.com/twitterOauthWindow.html?loginKey=3f76d55e39302d445ed53d531bcb811a&loginRes=ok&fbfirst=0 这个页面
